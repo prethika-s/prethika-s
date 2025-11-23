@@ -6,7 +6,7 @@
 <!-- HERO / TOP -->
 <h1 align="center">Hi 👋, I'm <span style="color:#6f42c1">Prethika S</span></h1>
 <p align="center">
-  <strong>B.Tech IT • Full-Stack Web Developer • ML Enthusiast • Problem Solver</strong>
+  <strong> Full-Stack Web Developer • Problem Solver</strong>
 </p>
 
 <p align="center">
@@ -37,7 +37,6 @@
 ---
 
 ## 💡 About Me
-- B.Tech (Information Technology) — St. Joseph’s Institute of Technology, Chennai — CGPA **9.01**.
 - Full-stack web developer (React, Node.js, Express) and problem-solver — **200+ LeetCode** + **1600+ SkillRack** solved. 
 - I build practical full-stack apps (authentication, RBAC, REST APIs, real-time charts) and prototype ML projects (CNNs for plant/herb identification). 
 ---
@@ -68,9 +67,7 @@
 ---
 
 ## 📫 Contact
-- ✉️ **Email:** mailstosprethika@gmail.com  
-- 📞 **Phone:** +91 8248171125  
-- 🌍 **Location:** Chennai. (Profile: GitHub shows Chennai.) :contentReference[oaicite:14]{index=14}
+- ✉️ **Email:** mailstosprethika@gmail.com
 
 ---
 
