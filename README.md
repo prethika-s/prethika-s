@@ -19,11 +19,6 @@
   </a>
 </p>
 
-<!-- Minimal Fun Divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="80%" />
-</p>
-
 ---
 
 ## 📊 GitHub stats
@@ -32,21 +27,11 @@
   <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prethika-s&layout=compact&theme=nightowl" />
 </p>
 
-<!-- Simple Animated Dot Divider -->
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Platane/snk@master/assets/github-contribution-grid-snake.svg" width="80%" />
-</p>
-
 ---
 
 ## 💡 About Me
 - Full-stack web developer (React, Node.js, Express) and problem-solver — **200+ LeetCode** + **1600+ SkillRack** solved.  
 - I build practical full-stack apps (authentication, RBAC, REST APIs, real-time charts) and prototype ML projects (CNNs for plant/herb identification).
-
-<!-- Thin wave divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/wave.svg" width="80%" />
-</p>
 
 ---
 
@@ -56,11 +41,6 @@
 **Backend:** Node.js, Express.js  
 **Databases:** MySQL, MongoDB, CouchDB (project experience)  
 **Other:** Git, GitHub, Postman, ExcelJS, Recharts, JWT, RBAC.
-
-<!-- Clean dots divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dots.png" width="70%" />
-</p>
 
 ---
 
@@ -77,11 +57,6 @@
 
 ### Daily-DSA-Problems  
 - Daily practice repository with solutions (leveraging Java). Demonstrates consistency & skill.
-
-<!-- Divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="80%" />
-</p>
 
 ---
 
