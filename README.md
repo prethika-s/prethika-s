@@ -1,52 +1,80 @@
-<h1 align="center">Hey 👋What's Up?</h1>
+<!--
+  Profile README for GitHub user: prethika-s
+  Drop this file into a repo named exactly: `prethika-s`
+-->
 
-###
+<!-- HERO / TOP -->
+<h1 align="center">Hi 👋, I'm <span style="color:#6f42c1">Prethika S</span></h1>
+<p align="center">
+  <strong>B.Tech IT • Full-Stack Web Developer • ML Enthusiast • Problem Solver</strong>
+</p>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="60" alt="storybook logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=graphql" height="60" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=rust" height="60" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nestjs" height="60" alt="nestjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
-</div>
+<p align="center">
+  <a href="https://github.com/prethika-s">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/prethika-s?label=Follow&style=social">
+  </a>
+  <a href="https://github.com/prethika-s?tab=repositories">
+    <img alt="Repo count" src="https://img.shields.io/github/repo-size/prethika-s/ExpenseTracker?label=Example+Repo+Size">
+  </a>
+  <a href="https://github.com/prethika-s?tab=stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/prethika-s?style=social">
+  </a>
+  <a href="https://www.linkedin.com/in/prethika-s">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin">
+  </a>
+</p>
 
-###
+---
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
-</div>
+<!-- PROFILE STATS -->
+## 📊 GitHub stats
+<!-- Dynamic stats (replace theme if you prefer) -->
+<p align="center">
+  <img alt="Prethika's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=prethika-s&show_icons=true&count_private=true&theme=nightowl" />
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prethika-s&layout=compact&theme=nightowl" />
+</p>
 
-###
+---
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=maurodesouza&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
+## 💡 About Me
+- B.Tech (Information Technology) — St. Joseph’s Institute of Technology, Chennai — CGPA **9.01**.
+- Full-stack web developer (React, Node.js, Express) and problem-solver — **200+ LeetCode** + **1600+ SkillRack** solved. 
+- I build practical full-stack apps (authentication, RBAC, REST APIs, real-time charts) and prototype ML projects (CNNs for plant/herb identification). 
+---
 
-###
+## 🛠️ Tech & Tools
+**Languages:** Java, JavaScript (ES6+)  
+**Frontend:** HTML5, CSS3, React.js  
+**Backend:** Node.js, Express.js  
+**Databases:** MySQL, MongoDB, CouchDB (project experience)  
+**Other:** Git, GitHub, Postman, ExcelJS, Recharts, JWT, RBAC. 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-</picture>
+---
 
-###
+## 🚀 Projects (highlights)
+
+### Mindly — Expense Tracker  
+- JWT authentication and RBAC, RESTful APIs with Node.js & Express, real-time visualizations with Recharts, Excel export via ExcelJS. (See repo: `ExpenseTracker`.) 
+
+### Blogify — AI-driven Blogging App  
+- Full-stack blogging platform with JWT auth, role-based dashboards, Gemini API + GraphQL integration for AI content generation, and a custom markdown editor with image upload. (See repo: `mern-blogging-app`.) 
+
+### Train Traffic and Congestion Control — SIH2025  
+- Simulation / control project for Smart India Hackathon 2025. (Repo: `Train-Traffic-and-Congestion-Control`.) 
+
+### Daily-DSA-Problems  
+- Daily practice repository with solutions (leveraging Java). Great to demonstrate consistency and algorithmic skill. 
+
+---
+
+## 📫 Contact
+- ✉️ **Email:** mailstosprethika@gmail.com  
+- 📞 **Phone:** +91 8248171125  
+- 🌍 **Location:** Chennai. (Profile: GitHub shows Chennai.) :contentReference[oaicite:14]{index=14}
+
+---
+
+## ✨ Want to collaborate?
+- I love working on full-stack & ML projects. If you have an idea, open an issue in any repo or DM me on LinkedIn.
+
+---
