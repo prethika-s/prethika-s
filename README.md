@@ -4,7 +4,9 @@
 -->
 
 <!-- HERO / TOP -->
-<h1 align="center">Hi 👋, I'm <span style="color:#6f42c1">Prethika S</span></h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=38&center=true&vCenter=true&width=700&lines=Hi+I'm+Prethika+S;Full+Stack+Developer;Problem+Solver" />
+</h1>
 <p align="center">
   <strong> Full-Stack Web Developer • Problem Solver</strong>
 </p>
@@ -83,11 +85,6 @@
 <p align="center">
   <!-- Contribution heatmap (commit calendar) -->
   <img src="https://ghchart.rshah.org/prethika-s" alt="GitHub contribution chart" />
-</p>
-
-<p align="center">
-  <!-- Banner (upload ./prethika_banner.png to repo root for this to show) -->
-  <img src="./prethika_banner.png" alt="Banner" width="100%" />
 </p>
 
 <p align="center">
