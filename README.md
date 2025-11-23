@@ -75,3 +75,26 @@
 - I love working on full-stack & ML projects. If you have an idea, open an issue in any repo or DM me on LinkedIn.
 
 ---
+
+---
+
+## 📈 Commit calendar & fun animations
+
+<p align="center">
+  <!-- Contribution heatmap (commit calendar) -->
+  <img src="https://ghchart.rshah.org/prethika-s" alt="GitHub contribution chart" />
+</p>
+
+<p align="center">
+  <!-- Banner (upload ./prethika_banner.png to repo root for this to show) -->
+  <img src="./prethika_banner.png" alt="Banner" width="100%" />
+</p>
+
+<p align="center">
+  <!-- Animated / live stats & playful badges -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=prethika-s&theme=dark" alt="Streak Stats" />
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=prethika-s" alt="Profile views" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-Coding%20%F0%9F%92%BB-informational?style=flat" alt="Status badge" />
+</p>
