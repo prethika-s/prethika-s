@@ -1,9 +1,3 @@
-<!--
-  Neon Cyber Arcade README for GitHub user: prethika-s
-  Drop this file into a repo named exactly: `prethika-s`
-  (Neon Cyber Arcade theme: synthwave gradients, neon Pac-Man, ghosts, animated grid dividers)
--->
-
 <!-- ===== HERO ===== -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Montserrat&size=42&duration=3000&pause=700&color=00ffe1&center=true&vCenter=true&repeat=true&width=820&lines=Prethika+S;Full-Stack+Developer;Problem+Solver" alt="Typing Animation" />
@@ -32,14 +26,9 @@
         <stop offset="50%" stop-color="#00ffe1"/>
         <stop offset="100%" stop-color="#ff4d6d"/>
       </linearGradient>
-      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-        <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-        <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
     </defs>
 
-    <!-- animated grid lines -->
-    <g stroke="url(#g1)" stroke-opacity="0.9" filter="url(#glow)" stroke-width="1.5">
+    <g stroke="url(#g1)" stroke-opacity="0.9" stroke-width="1.5">
       <line x1="0" y1="20" x2="1200" y2="20">
         <animate attributeName="x1" values="0;0" dur="6s" repeatCount="indefinite" />
       </line>
@@ -51,7 +40,6 @@
       </line>
     </g>
 
-    <!-- subtle moving glow -->
     <rect x="-400" y="0" width="600" height="80" fill="url(#g1)" opacity="0.06">
       <animate attributeName="x" from="-400" to="1200" dur="6s" repeatCount="indefinite" />
     </rect>
@@ -74,14 +62,9 @@
         <stop offset="0" stop-color="#00ffe1"/>
         <stop offset="1" stop-color="#6f42c1"/>
       </linearGradient>
-      <filter id="nGlow" x="-50%" y="-50%" width="200%" height="200%">
-        <feGaussianBlur stdDeviation="6" result="b"/>
-        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
     </defs>
 
-    <!-- dots (fade-out timing to simulate eating) -->
-    <g stroke="none" fill="#00ffe1" filter="url(#nGlow)">
+    <g stroke="none" fill="#00ffe1">
       <circle cx="220" cy="45" r="6">
         <animate attributeName="opacity" values="1;1;0" dur="2.4s" begin="0.4s" repeatCount="indefinite" />
       </circle>
@@ -93,13 +76,11 @@
       </circle>
     </g>
 
-    <!-- neon Pac-Man body moves left->right -->
-    <g filter="url(#nGlow)">
+    <g>
       <circle cx="120" cy="45" r="22" fill="url(#neon)">
         <animate attributeName="cx" from="120" to="360" dur="2.4s" repeatCount="indefinite" />
       </circle>
 
-      <!-- mouth (pulsing) -->
       <path fill="#0b1020" d="M120 45 L138 32 L138 58 Z">
         <animate attributeName="d"
                  values="M120 45 L138 32 L138 58 Z; M120 45 L138 43 L138 47 Z; M120 45 L138 32 L138 58 Z"
@@ -107,7 +88,6 @@
         <animate attributeName="transform" type="translate" from="0 0" to="240 0" dur="2.4s" repeatCount="indefinite"/>
       </path>
 
-      <!-- eye -->
       <circle cx="132" cy="36" r="3" fill="#071024">
         <animate attributeName="cx" from="132" to="372" dur="2.4s" repeatCount="indefinite" />
       </circle>
@@ -121,27 +101,19 @@
 - Full-stack web developer (React, Node.js, Express) and problem-solver — **200+ LeetCode** + **1600+ SkillRack** solved.  
 - I build practical full-stack apps (authentication, RBAC, REST APIs, real-time charts) and prototype ML projects (CNNs for plant/herb identification).  
 
-<!-- ===== NEON GHOSTS CHASE (fun) ===== -->
+<!-- ===== NEON GHOSTS (safe SVG) ===== -->
 <p align="center">
   <svg width="520" height="120" viewBox="0 0 520 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ghosts">
-    <defs>
-      <linearGradient id="gA" x1="0" x2="1"><stop offset="0" stop-color="#ff4d6d"/><stop offset="1" stop-color="#ff9a9e"/></linearGradient>
-      <linearGradient id="gB" x1="0" x2="1"><stop offset="0" stop-color="#00ffe1"/><stop offset="1" stop-color="#6f42c1"/></linearGradient>
-      <filter id="ghostGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
-    </defs>
-
-    <!-- ghost A (red) -->
-    <g filter="url(#ghostGlow)">
-      <path fill="url(#gA)" d="M40 60 Q40 20 80 20 Q120 20 120 60 Q120 80 100 80 Q90 80 80 72 Q70 80 60 80 Q50 80 40 80 Z">
+    <g>
+      <path fill="#ff4d6d" d="M40 60 Q40 20 80 20 Q120 20 120 60 Q120 80 100 80 Q90 80 80 72 Q70 80 60 80 Q50 80 40 80 Z">
         <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 0; 240 0; 0 0" dur="4s" repeatCount="indefinite"/>
       </path>
       <circle cx="70" cy="45" r="6" fill="#fff"/>
       <circle cx="95" cy="45" r="6" fill="#fff"/>
     </g>
 
-    <!-- ghost B (cyan) -->
-    <g filter="url(#ghostGlow)">
-      <path fill="url(#gB)" d="M180 60 Q180 20 220 20 Q260 20 260 60 Q260 80 240 80 Q230 80 220 72 Q210 80 200 80 Q190 80 180 80 Z">
+    <g>
+      <path fill="#00ffe1" d="M180 60 Q180 20 220 20 Q260 20 260 60 Q260 80 240 80 Q230 80 220 72 Q210 80 200 80 Q190 80 180 80 Z">
         <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 0; 240 0; 0 0" dur="4s" begin="0.6s" repeatCount="indefinite"/>
       </path>
       <circle cx="210" cy="45" r="6" fill="#071024"/>
@@ -159,30 +131,13 @@
 **Databases:** MySQL, MongoDB, CouchDB (project experience)  
 **Other:** Git, GitHub, Postman, ExcelJS, Recharts, JWT, RBAC. 
 
-<!-- ===== NEON MARIO PIPE DIVIDER ===== -->
+<!-- ===== MARIO-PIPE DIVIDER (safe SVG) ===== -->
 <p align="center">
   <svg width="100%" height="90" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="pipeGrad" x1="0" x2="1"><stop offset="0" stop-color="#00ffe1"/><stop offset="1" stop-color="#6f42c1"/></linearGradient>
-      <filter id="pipeGlow"><feGaussianBlur stdDeviation="6"/></filter>
-    </defs>
-
-    <!-- pipes across the width -->
-    <g filter="url(#pipeGlow)" fill="url(#pipeGrad)">
-      <rect x="60" y="10" width="80" height="60" rx="10" />
-      <ellipse cx="100" cy="10" rx="40" ry="10" />
-      <rect x="260" y="10" width="80" height="60" rx="10" />
-      <ellipse cx="300" cy="10" rx="40" ry="10" />
-      <rect x="460" y="10" width="80" height="60" rx="10" />
-      <ellipse cx="500" cy="10" rx="40" ry="10" />
-      <rect x="660" y="10" width="80" height="60" rx="10" />
-      <ellipse cx="700" cy="10" rx="40" ry="10" />
-    </g>
-
-    <!-- subtle horizontal shimmer -->
-    <rect x="-400" y="0" width="600" height="90" fill="url(#pipeGrad)" opacity="0.06">
-      <animate attributeName="x" from="-400" to="1200" dur="6s" repeatCount="indefinite" />
-    </rect>
+    <rect x="60" y="10" width="80" height="60" rx="10" fill="#00ffe1" />
+    <ellipse cx="100" cy="10" rx="40" ry="10" fill="#00ffe1" />
+    <rect x="260" y="10" width="80" height="60" rx="10" fill="#6f42c1" />
+    <ellipse cx="300" cy="10" rx="40" ry="10" fill="#6f42c1" />
   </svg>
 </p>
 
@@ -204,20 +159,12 @@
 
 ---
 
-<!-- ===== NEON COIN + HEARTS EASTER EGGS ===== -->
+<!-- ===== COINS & HEARTS EASTER EGGS (safe SVG) ===== -->
 <p align="center">
   <svg width="420" height="100" viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="eggs">
-    <defs>
-      <linearGradient id="coin" x1="0" x2="1"><stop offset="0" stop-color="#ffd54a"/><stop offset="1" stop-color="#ff9a9e"/></linearGradient>
-      <filter id="eggGlow"><feGaussianBlur stdDeviation="5"/></filter>
-    </defs>
-
-    <!-- coins -->
-    <g filter="url(#eggGlow)">
-      <circle cx="60" cy="50" r="12" fill="url(#coin)"><animate attributeName="cy" values="50;46;50" dur="1.6s" repeatCount="indefinite"/></circle>
-      <circle cx="120" cy="50" r="12" fill="url(#coin)"><animate attributeName="cy" values="50;44;50" dur="1.6s" begin="0.2s" repeatCount="indefinite"/></circle>
-      <path d="M220 60 Q230 45 240 60 Q235 55 230 60 Q225 55 220 60Z" fill="#ff6b6b"><animate attributeName="opacity" values="0.9;0.5;0.9" dur="1.8s" repeatCount="indefinite"/></path>
-    </g>
+    <circle cx="60" cy="50" r="12" fill="#ffd54a"><animate attributeName="cy" values="50;46;50" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="50" r="12" fill="#ffd54a"><animate attributeName="cy" values="50;44;50" dur="1.6s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <path d="M220 60 Q230 45 240 60 Q235 55 230 60 Q225 55 220 60Z" fill="#ff6b6b"><animate attributeName="opacity" values="0.9;0.5;0.9" dur="1.8s" repeatCount="indefinite"/></path>
   </svg>
 </p>
 
@@ -241,8 +188,5 @@
 
 ---
 
-
 ## ✨ Want to collaborate?
 I love working on full-stack & ML projects — open an issue, DM me on LinkedIn, or drop an email.
-
----
